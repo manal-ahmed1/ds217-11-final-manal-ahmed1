@@ -1,4 +1,4 @@
-Rows before cleaning: 196645
+Rows before cleaning: 196647
 
 Missing data handling method: used forward fill to impute all missing values.
 
@@ -14,4 +14,4 @@ Columns and number of outliers before cleaning: {'Air Temperature': np.int64(97)
 
 Measurement Timestamp was made into a datetime variable, and Precipitation Type was made into a categorical variable.
 
-Rows after cleaning: 196645
+Rows after cleaning: 196647

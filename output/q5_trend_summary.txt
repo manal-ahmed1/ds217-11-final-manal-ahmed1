@@ -1,0 +1,16 @@
+KEY PATTERNS IDENTIFIED
+=======================
+
+TEMPORAL TRENDS:
+- Monthly Air Temperature ranges from -5.04 to 25.25.
+- Air Temperature shows clear seasonal variation over the year (higher in warmer months, lower in cooler months).
+
+DAILY PATTERNS:
+- Air Temperature exhibits a daily cycle.
+- Typical peak around hour 16.
+- Typical minimum around hour 6.
+
+TOP CORRELATIONS:
+- Air Temperature vs Wet Bulb Temperature: correlation = 0.828
+- Air Temperature vs Rain Intensity: correlation = nan
+- Air Temperature vs Interval Rain: correlation = nan
