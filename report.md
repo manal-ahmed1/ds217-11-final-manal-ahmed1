@@ -176,7 +176,6 @@ The Random Forest model dramatically outperformed Linear Regression, indicating 
 
 **Figure 3. Predictions vs Actual & Feature Importance**  
 ![Q8 Results](output/q8_final_visualizations.png)
-
 ---
 
 ## **Phase 9 (Q8): Final Results & Visualization Summary**
