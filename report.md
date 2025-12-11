@@ -36,6 +36,13 @@ The exploratory plots illustrate:
 
 ![Figure 1: Exploratory Visualization of Air Temperature](output/q1_visualizations.png)
 
+Figure 1. "Exploratory Visualizatino of Air Temperature"
+This histogram shows the full distribution of hourly air temperature readings across the dataset, revealing a slightly right-skewed shape with most observations between 0°C and 25°C.
+
+Figure 2. "Time Series of Air Temperature" 
+
+This figure shows the raw air-temperature measurements over time. Clear seasonal fluctuations and extreme cold spikes are visible throughout the 10-year span.
+
 # Phase 3: Data Cleaning
 
 leaning summary from `q2_cleaning_report.txt` and `q2_rows_cleaned.txt`  
@@ -127,6 +134,9 @@ Your Q5 visualizations (below) revealed key temporal patterns:
 **Figure 2. Monthly, Hourly, and Correlation Patterns**  
 ![Q5 Patterns](output/q5_patterns.png)
 
+Figure3: The top-left panel shows strong annual seasonality in temperature.
+The top-right panel shows hourly warming patterns, with temperatures increasing through midday.
+The bottom heatmap illustrates correlations among weather features.
 ---
 
 ## **Phase 7 (Q6): Modeling Preparation**
@@ -176,6 +186,17 @@ The Random Forest model dramatically outperformed Linear Regression, indicating 
 
 **Figure 3. Predictions vs Actual & Feature Importance**  
 ![Q8 Results](output/q8_final_visualizations.png)
+
+Figure 4. Predictions vs Actual (Q8)
+
+This visualization compares true test-set air temperatures with model predictions.
+Random Forest predictions track the true signal much more closely than the linear model.
+
+Figure 5. Random Forest Feature Importance (Q8)
+
+This bar chart displays each feature’s relative contribution to the Random Forest model.
+Wet Bulb Temperature is by far the most influential predictor (importance ≈ 0.49).
+
 ---
 
 ## **Phase 9 (Q8): Final Results & Visualization Summary**
