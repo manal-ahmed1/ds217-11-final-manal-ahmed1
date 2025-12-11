@@ -131,10 +131,10 @@ Your Q5 visualizations (below) revealed key temporal patterns:
   - Moderate negative: Air Temp ↔ Humidity  
   - Wind- and rain-related features less predictive but still meaningful
 
-**Figure 2. Monthly, Hourly, and Correlation Patterns**  
+**Monthly, Hourly, and Correlation Patterns**  
 ![Q5 Patterns](output/q5_patterns.png)
 
-Figure3: The top-left panel shows strong annual seasonality in temperature.
+Figure 3: The top-left panel shows strong annual seasonality in temperature.
 The top-right panel shows hourly warming patterns, with temperatures increasing through midday.
 The bottom heatmap illustrates correlations among weather features.
 ---
@@ -184,15 +184,15 @@ The Random Forest model dramatically outperformed Linear Regression, indicating 
 - The top three features explained ~89% of total importance.  
 - Temporal variables (month, year) also contributed meaningful signal.
 
-**Figure 3. Predictions vs Actual & Feature Importance**  
+Predictions vs Actual & Feature Importance**  
 ![Q8 Results](output/q8_final_visualizations.png)
 
-Figure 4. Predictions vs Actual (Q8)
+Figure 4. Predictions vs Actual 
 
 This visualization compares true test-set air temperatures with model predictions.
 Random Forest predictions track the true signal much more closely than the linear model.
 
-Figure 5. Random Forest Feature Importance (Q8)
+Figure 5. Feature Importance for Random Forest Regression (Q8)
 
 This bar chart displays each feature’s relative contribution to the Random Forest model.
 Wet Bulb Temperature is by far the most influential predictor (importance ≈ 0.49).
