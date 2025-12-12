@@ -72,7 +72,6 @@ Using the **IQR method**, outliers were capped across features such as:
 - **Rows after cleaning:** 196,647  
 
 
-
 # Phase 4: Datetime Wrangling
 
 From `q3_datetime_info.txt` and `q3_temporal_features.csv`  
